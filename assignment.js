@@ -5,6 +5,12 @@ function kilometerToMeter(km){
 }
 
 
+/*var result = kilometerToMeter(5);
+console.log(result);
+*/
+
+
+
 
 //problem2
 function budgetCalculator(w,m,l){
@@ -15,14 +21,17 @@ function budgetCalculator(w,m,l){
      return total;
 }
 
-
+/*var result = budgetCalculator(4,5,9);
+console.log(result);
+*/
 
 
 //problem3
 
 function hotelCost(days){
  var cost = 0;
- if(days <=10){
+
+  if(days <=10){
      cost = days * 100;
  }
  else if(days <=20){
@@ -42,6 +51,9 @@ function hotelCost(days){
 return cost;
 }
 
+/*var result = hotelCost(23);
+console.log(result);
+*/
 
 
 
@@ -60,6 +72,8 @@ for(var i = 0; i< names.length; i++){
 
 }
 
-
-
+/*var result = megaFriend('asif','newaz','shiful');
+var largestname =(result);
+console.log(largestname);
+*/
 
